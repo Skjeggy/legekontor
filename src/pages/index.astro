@@ -195,6 +195,38 @@ const icons = {
         </div>
       </section>
 
+      <section class="switch-section" aria-labelledby="switch-heading">
+        <div class="content-wrap switch-layout">
+          <div class="switch-content">
+            <p class="section-kicker">Bytte fastlege</p>
+            <h2 id="switch-heading">Vil du bytte til oss?</h2>
+            <p>
+              Du kan bytte fastlege via Helsenorge. Søk opp Vågsbygd Torv Legesenter AS og følg
+              stegene der.
+            </p>
+            <p>
+              Husk at du selv må gi beskjed til legekontoret du bytter fra om at journalen skal
+              oversendes til ny fastlege. Dette skjer ikke automatisk.
+            </p>
+          </div>
+
+          <div class="switch-action" aria-label="Slik bytter du fastlege">
+            <ol>
+              <li>Åpne Helsenorge</li>
+              <li>Velg Vågsbygd Torv Legesenter AS</li>
+              <li>Be tidligere legekontor sende journalen</li>
+            </ol>
+            <a
+              href="https://tjenester.helsenorge.no/bytte-fastlege?searchquery=V%C3%A5gsbygd%20Torv%20Legesenter%20AS&searchquerytype=legekontor"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Åpne Helsenorge
+            </a>
+          </div>
+        </div>
+      </section>
+
       <section class="about-section" aria-labelledby="about-heading">
         <div class="content-wrap about-layout">
           <div class="about-content">
@@ -614,6 +646,95 @@ const icons = {
     text-decoration: none;
   }
 
+  .switch-section {
+    background: linear-gradient(180deg, white, var(--color-surface));
+    padding: 4rem 1rem;
+  }
+
+  .switch-layout {
+    align-items: center;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: minmax(0, 0.9fr) minmax(320px, 0.8fr);
+  }
+
+  .switch-content {
+    max-width: 620px;
+  }
+
+  .switch-content h2 {
+    color: var(--color-primary);
+    font-size: clamp(2.6rem, 5vw, 4.7rem);
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 0.96;
+    margin: 0 0 1.4rem;
+  }
+
+  .switch-content p {
+    color: #63666b;
+    font-size: clamp(1.05rem, 1.45vw, 1.26rem);
+    font-weight: 650;
+    line-height: 1.55;
+    margin: 0 0 1.2rem;
+  }
+
+  .switch-action {
+    background:
+      linear-gradient(135deg, rgb(216 240 231 / 82%), rgb(247 244 236 / 94%)),
+      white;
+    border: 1px solid rgb(13 107 87 / 14%);
+    border-radius: 1.4rem;
+    box-shadow: var(--shadow-soft);
+    padding: clamp(1.5rem, 3vw, 2.3rem);
+  }
+
+  .switch-action ol {
+    counter-reset: switch-steps;
+    display: grid;
+    gap: 1rem;
+    list-style: none;
+    margin: 0 0 1.6rem;
+    padding: 0;
+  }
+
+  .switch-action li {
+    align-items: center;
+    color: #063b33;
+    counter-increment: switch-steps;
+    display: grid;
+    font-size: 1.08rem;
+    font-weight: 850;
+    gap: 0.9rem;
+    grid-template-columns: 42px 1fr;
+    line-height: 1.2;
+  }
+
+  .switch-action li::before {
+    align-items: center;
+    background: white;
+    border-radius: 50%;
+    color: var(--color-green);
+    content: counter(switch-steps);
+    display: inline-flex;
+    font-size: 1rem;
+    font-weight: 900;
+    height: 42px;
+    justify-content: center;
+    width: 42px;
+  }
+
+  .switch-action a {
+    background: var(--color-green);
+    border-radius: 999px;
+    color: white;
+    display: inline-flex;
+    font-size: 1.05rem;
+    font-weight: 900;
+    padding: 0.9rem 1.25rem;
+    text-decoration: none;
+  }
+
   .action-grid {
     display: grid;
     gap: 1.5rem;
@@ -990,6 +1111,7 @@ const icons = {
 
     .action-grid,
     .about-layout,
+    .switch-layout,
     .info-quick-grid,
     .footer-grid,
     .contact-map-layout {

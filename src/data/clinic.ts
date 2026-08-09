@@ -345,7 +345,7 @@ export const staff: StaffMember[] = [
     editorialImageKind: 'art',
     editorialImagePosition: 'center',
     description:
-      'Spesialist i allmennmedisin. Deler listen til Sondre Sverd Rekdal. Glad i hudsykdommer og kvinnehelse. Har også kompetanse på reisemedisin og vaksinering.',
+      'Spesialist i allmennmedisin. Vikar på listen til Sondre Sverd Rekdal. Glad i hudsykdommer og kvinnehelse. Har også kompetanse på reisemedisin og vaksinering.',
     status: 'needs-review',
   },
   {
@@ -357,7 +357,7 @@ export const staff: StaffMember[] = [
     editorialImageFit: 'contain',
     editorialImagePosition: 'center',
     description:
-      'Spesialist i allmennmedisin. Møter pasienter med både nye helseplager og behov for oppfølging over tid.',
+      'Spesialist i allmennmedisin. Spesiell kompetanse på barne og ungdomspsykaiatri, samt voksen psykiatri. Har fullført 2 årig utdannelse innen kognitiv atferdsterapi og har en master innen helse- og sosial-informatikk. Jobber også deltid som rådgiver inn mot utdanning av spesialister i allmennmedisin.',
     status: 'needs-review',
   },
   {
@@ -367,8 +367,20 @@ export const staff: StaffMember[] = [
     editorialImage: '/images/staff/art/tom-andre-aas.webp',
     editorialImageKind: 'art',
     editorialImagePosition: 'center',
+    description: 'Spesialist i allmennmedisin.',
+    status: 'needs-review',
+  },
+  {
+    name: 'Susanna Sebastianpillai',
+    role: 'Allmennlege i spesialisering',
+    initials: 'SS',
+    editorialImage: '/images/staff/placeholders/doctor-01.webp',
+    editorialImageKind: 'photo',
+    editorialImagePosition: 'center',
+    isPlaceholderMember: true,
+    imageLabel: 'Midlertidig bilde',
     description:
-      'Spesialist i allmennmedisin. Arbeider med medisinske vurderinger, behandling og oppfølging i allmennpraksis.',
+      'Lang erfaring fra arbeid på sykehjem og med eldre. Også glad i kvinnehelse.',
     status: 'needs-review',
   },
   {

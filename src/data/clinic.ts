@@ -178,12 +178,12 @@ export const clinic: ClinicConfig = {
     source: publicDirectorySource,
   },
   phone: {
-    value: '+4738000550',
+    value: '+4773609450',
     status: 'verified',
     source: publicDirectorySource,
   },
   phoneDisplay: {
-    value: '38 00 05 50',
+    value: '73 60 94 50',
     status: 'verified',
     source: publicDirectorySource,
   },
@@ -205,12 +205,17 @@ export const clinic: ClinicConfig = {
   openingHours: [
     {
       label: 'Legekontor',
-      hours: 'Man–fre 08:00–15:00',
+      hours: 'Man–tors 08:30–15:00, fre 08:30–14:00',
       status: 'verified',
     },
     {
-      label: 'Telefon',
-      hours: 'Man–fre 08:30–14:30',
+      label: 'Telefon – akutt (man–fre)',
+      hours: '08:30–09:30',
+      status: 'verified',
+    },
+    {
+      label: 'Telefon – andre henvendelser',
+      hours: 'Man–tors 12:30–14:00, fre 12:30–14:00',
       status: 'verified',
     },
     {
@@ -223,17 +228,18 @@ export const clinic: ClinicConfig = {
   officeSchedule: {
     timeZone: 'Europe/Oslo',
     weekly: {
-      1: { opens: '08:00', closes: '15:00' },
-      2: { opens: '08:00', closes: '15:00' },
-      3: { opens: '08:00', closes: '15:00' },
-      4: { opens: '08:00', closes: '15:00' },
-      5: { opens: '08:00', closes: '15:00' },
+      1: { opens: '08:30', closes: '15:00' },
+      2: { opens: '08:30', closes: '15:00' },
+      3: { opens: '08:30', closes: '15:00' },
+      4: { opens: '08:30', closes: '15:00' },
+      5: { opens: '08:30', closes: '14:00' },
     },
     // Add confirmed holidays and temporary closures here as YYYY-MM-DD entries.
     exceptions: [],
   },
   phoneHours: {
-    value: 'Mandag–fredag kl. 08:30–14:30',
+    value:
+      'Akutt man–fre kl. 08:30–09:30. Andre henvendelser man–tors og fre kl. 12:30–14:00.',
     status: 'verified',
   },
   parking: {
@@ -304,9 +310,9 @@ export const clinic: ClinicConfig = {
     },
     {
       label: 'Ring oss',
-      cardDetail: '38 00 05 50',
-      description: `Telefon ${'38 00 05 50'}. Ikke send helseopplysninger på e-post.`,
-      href: 'tel:+4738000550',
+      cardDetail: '73 60 94 50',
+      description: `Telefon ${'73 60 94 50'}. Ikke send helseopplysninger på e-post.`,
+      href: 'tel:+4773609450',
       preview: {
         title: 'Når du bør ringe',
         body: 'Ring når du trenger hjelp som ikke kan vente, eller er usikker på riktig kontaktvei.',
@@ -613,7 +619,7 @@ export const notices: Notice[] = [
 export const beforeVisitInfo: PatientInfoItem[] = [
   {
     title: 'Akutt time',
-    details: ['Ring 38 00 05 50 fra kl. 08:00.'],
+    details: ['Ring 73 60 94 50 man–fre kl. 08:30–09:30.'],
     status: 'needs-review',
   },
   {

@@ -220,7 +220,7 @@ export const clinic: ClinicConfig = {
     },
     {
       label: 'Laboratorium',
-      hours: 'Man–fre 08:15–14:00',
+      hours: 'Man–tors 08:30–14:00, fre 08:30–11:00',
       status: 'verified',
     },
     { label: 'Helg', hours: 'Stengt', status: 'verified' },

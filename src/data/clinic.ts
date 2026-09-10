@@ -351,7 +351,7 @@ export const staff: StaffMember[] = [
     editorialImageKind: 'art',
     editorialImagePosition: 'center',
     description:
-      'Spesialist i allmennmedisin. Vikar på listen til Sondre Sverd Rekdal. Glad i hudsykdommer og kvinnehelse. Har også kompetanse på reisemedisin og vaksinering.',
+      'Spesialist i allmennmedisin. Vikar på listen til Sondre Sverd Rekdal. Glad i hudsykdommer og kvinnehelse. Hun har kompetanse på injeksjonsbehandling - da inkludert botox behandling mot migrene og bruxisme, GON-blokkade mot hodepine, svettebehandling. Hun tilbyr også helkropp hudscreeninger med tanke på hudkreft og andre hudsykdommer.',
     status: 'needs-review',
   },
   {

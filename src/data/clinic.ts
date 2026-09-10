@@ -645,7 +645,7 @@ export const beforeVisitInfo: PatientInfoItem[] = [
 export const clinicSwitchInfo: ClinicSwitchInfo = {
   title: 'Vil du bytte til oss?',
   description:
-    'Du kan bytte fastlege via Helsenorge. Søk opp Vågsbygd Torv Legesenter AS og følg stegene der.',
+    'Du kan bytte fastlege via Helsenorge. Søk opp Vågsbygd Torv Legesenter AS og følg stegene der. Du kan alternativt ringe Veiledning Helsenorge på telefon 23 32 70 00 om du ikke kan eller vil bruke Helsenorge.',
   journalNote:
     'Gi beskjed til legekontoret du bytter fra om at journalen skal sendes til den nye fastlegen. Det skjer ikke automatisk.',
   href: 'https://tjenester.helsenorge.no/bytte-fastlege?searchquery=V%C3%A5gsbygd%20Torv%20Legesenter%20AS&searchquerytype=legekontor',

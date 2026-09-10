@@ -124,7 +124,7 @@ export async function getFhiNewsFeed(fallbackItems: FhiNewsItem[]): Promise<FhiN
     const response = await fetch(FHI_RSS_URL, {
       headers: {
         Accept: 'application/rss+xml, application/xml;q=0.9, text/xml;q=0.8',
-        'User-Agent': 'Vagsbygd-Legesenter-News/1.0 (+https://vagsbygdlegesenter.no)',
+        'User-Agent': 'Vagsbygd-Legesenter-News/1.0 (+https://vtlege.no)',
       },
       signal: AbortSignal.timeout(5_000),
     });

@@ -10,7 +10,7 @@ const routes = [
 ];
 
 export const GET: APIRoute = ({ site }) => {
-  const origin = site ?? new URL('https://vagsbygdlegesenter.no');
+  const origin = site ?? new URL('https://vtlege.no');
   const urls = routes
     .map((route) => `<url><loc>${new URL(route, origin).toString()}</loc></url>`)
     .join('');

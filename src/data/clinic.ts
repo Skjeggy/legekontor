@@ -602,16 +602,7 @@ export const priceList: PriceList = {
   ],
 };
 
-export const notices: Notice[] = [
-  {
-    title: 'Vi gleder oss til en ny lege begynner!',
-    message:
-      'Den 1. september begynner Susanna Sebastianpillai hos oss. Hun er en erfaren og dyktig fastlege og vi gleder oss til å få henne som kollega. Hun har ledige plasser fremover og tar gjerne imot nye pasienter.',
-    dateLabel: '9. august 2026',
-    active: true,
-    status: 'needs-review',
-  },
-];
+export const notices: Notice[] = [];
 
 export const beforeVisitInfo: PatientInfoItem[] = [
   {

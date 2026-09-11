@@ -369,8 +369,8 @@ export const staff: StaffMember[] = [
     name: 'Tom Andre Aas',
     role: 'Lege – spesialist i allmennmedisin',
     initials: 'TA',
-    editorialImage: '/images/staff/art/tom-andre-aas.webp',
-    editorialImageKind: 'art',
+    editorialImage: '/images/staff/tom.jpeg',
+    editorialImageKind: 'photo',
     editorialImagePosition: 'center',
     description: 'Spesialist i allmennmedisin.',
     status: 'needs-review',
@@ -394,7 +394,7 @@ export const staff: StaffMember[] = [
     editorialImageKind: 'photo',
     editorialImagePosition: 'center',
     description:
-      'Har ansvar for den daglige driften og bidrar til at pasientene møter et koordinert og oversiktlig tilbud ved legesenteret.',
+      'Har ansvar for den daglige driften og bidrar til at pasientene møter et koordinert og oversiktlig tilbud ved legesenteret. Hun har også egne konsultasjoner med pasienter.',
     status: 'needs-review',
   },
   {

@@ -345,7 +345,7 @@ export const clinic: ClinicConfig = {
 export const staff: StaffMember[] = [
   {
     name: 'Anna Sverd Rekdal',
-    role: 'Lege – spesialist i allmennmedisin',
+    role: 'Spesialist i allmennmedisin',
     initials: 'AR',
     editorialImage: '/images/staff/anna.jpeg',
     editorialImageKind: 'photo',
@@ -356,7 +356,7 @@ export const staff: StaffMember[] = [
   },
   {
     name: 'Sondre Sverd Rekdal',
-    role: 'Lege – spesialist i allmennmedisin',
+    role: 'Spesialist i allmennmedisin',
     initials: 'SR',
     editorialImage: '/images/staff/Sondre.jpg',
     editorialImageKind: 'photo',
@@ -367,7 +367,7 @@ export const staff: StaffMember[] = [
   },
   {
     name: 'Tom Andre Aas',
-    role: 'Lege – spesialist i allmennmedisin',
+    role: 'Spesialist i allmennmedisin',
     initials: 'TA',
     editorialImage: '/images/staff/tom.jpeg',
     editorialImageKind: 'photo',

@@ -405,7 +405,7 @@ export const staff: StaffMember[] = [
     editorialImageKind: 'photo',
     editorialImagePosition: 'center',
     description:
-      'Møter pasienter i resepsjonen og hjelper med praktisk veiledning, timeavtaler og oppfølging rundt besøket.',
+      'Vår hyggelige helsesekretær som møter deg i resepsjonen, på telefonen og på laboratoriet. Hun har også en spisskompetanse på sårstell.',
     status: 'needs-review',
   },
 ];

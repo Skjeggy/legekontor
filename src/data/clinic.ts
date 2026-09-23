@@ -347,8 +347,8 @@ export const staff: StaffMember[] = [
     name: 'Anna Sverd Rekdal',
     role: 'Lege – spesialist i allmennmedisin',
     initials: 'AR',
-    editorialImage: '/images/staff/art/anna-sverd-rekdal.webp',
-    editorialImageKind: 'art',
+    editorialImage: '/images/staff/anna.jpeg',
+    editorialImageKind: 'photo',
     editorialImagePosition: 'center',
     description:
       'Spesialist i allmennmedisin. Vikar på listen til Sondre Sverd Rekdal. Glad i hudsykdommer og kvinnehelse. Hun har kompetanse på injeksjonsbehandling - da inkludert botox behandling mot migrene og bruxisme, GON-blokkade mot hodepine, svettebehandling. Hun tilbyr også helkropp hudscreeninger med tanke på hudkreft og andre hudsykdommer.',

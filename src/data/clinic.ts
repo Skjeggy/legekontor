@@ -349,7 +349,7 @@ export const staff: StaffMember[] = [
     initials: 'AR',
     editorialImage: '/images/staff/anna.jpeg',
     editorialImageKind: 'photo',
-    editorialImagePosition: 'center',
+    editorialImagePosition: 'center top',
     description:
       'Spesialist i allmennmedisin. Vikar på listen til Sondre Sverd Rekdal. Glad i hudsykdommer og kvinnehelse. Hun har kompetanse på injeksjonsbehandling - da inkludert botox behandling mot migrene og bruxisme, GON-blokkade mot hodepine, svettebehandling. Hun tilbyr også helkropp hudscreeninger med tanke på hudkreft og andre hudsykdommer.',
     status: 'needs-review',
@@ -360,7 +360,7 @@ export const staff: StaffMember[] = [
     initials: 'SR',
     editorialImage: '/images/staff/Sondre.jpg',
     editorialImageKind: 'photo',
-    editorialImagePosition: 'center',
+    editorialImagePosition: 'center top',
     description:
       'Spesialist i allmennmedisin. Spesiell kompetanse på barne og ungdomspsykaiatri, samt voksen psykiatri. Har fullført 2 årig utdannelse innen kognitiv atferdsterapi og har en master innen helse- og sosial-informatikk. Jobber også deltid som rådgiver inn mot utdanning av spesialister i allmennmedisin.',
     status: 'needs-review',
@@ -371,7 +371,7 @@ export const staff: StaffMember[] = [
     initials: 'TA',
     editorialImage: '/images/staff/tom.jpeg',
     editorialImageKind: 'photo',
-    editorialImagePosition: 'center',
+    editorialImagePosition: 'center top',
     description: 'Spesialist i allmennmedisin.',
     status: 'needs-review',
   },
@@ -381,7 +381,7 @@ export const staff: StaffMember[] = [
     initials: 'SS',
     editorialImage: '/images/staff/Susanna.jpg',
     editorialImageKind: 'photo',
-    editorialImagePosition: 'center',
+    editorialImagePosition: 'center top',
     description:
       'Lang erfaring fra arbeid på sykehjem og med eldre. Også glad i kvinnehelse.',
     status: 'needs-review',
@@ -392,7 +392,7 @@ export const staff: StaffMember[] = [
     initials: 'TH',
     editorialImage: '/images/staff/Therese.jpg',
     editorialImageKind: 'photo',
-    editorialImagePosition: 'center',
+    editorialImagePosition: 'center top',
     description:
       'Har ansvar for den daglige driften og bidrar til at pasientene møter et koordinert og oversiktlig tilbud ved legesenteret. Hun har også egne konsultasjoner med pasienter.',
     status: 'needs-review',
@@ -403,7 +403,7 @@ export const staff: StaffMember[] = [
     initials: 'IK',
     editorialImage: '/images/staff/Ivy.jpg',
     editorialImageKind: 'photo',
-    editorialImagePosition: 'center',
+    editorialImagePosition: 'center top',
     description:
       'Vår hyggelige helsesekretær som møter deg i resepsjonen, på telefonen og på laboratoriet. Hun har også en spisskompetanse på sårstell.',
     status: 'needs-review',

@@ -602,7 +602,16 @@ export const priceList: PriceList = {
   ],
 };
 
-export const notices: Notice[] = [];
+export const notices: Notice[] = [
+  {
+    title: 'Årets influensavaksine er kommet!',
+    message:
+      'Du kan ta influensavaksinen hos oss fra og med 12. november.',
+    dateLabel: '21. oktober 2026',
+    active: true,
+    status: 'verified',
+  },
+];
 
 export const beforeVisitInfo: PatientInfoItem[] = [
   {

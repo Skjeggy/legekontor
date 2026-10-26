@@ -26,6 +26,7 @@ export interface OpeningHoursException {
 
 export interface OfficeSchedule {
   timeZone: string;
+  lunchBreak?: { from: string; to: string };
   weekly: Partial<Record<1 | 2 | 3 | 4 | 5 | 6 | 7, DailyOpeningWindow>>;
   exceptions: OpeningHoursException[];
 }
@@ -209,6 +210,11 @@ export const clinic: ClinicConfig = {
       status: 'verified',
     },
     {
+      label: 'Lunsjpause',
+      hours: 'Man–fre 11:30–12:30 – hele legekontoret er stengt',
+      status: 'verified',
+    },
+    {
       label: 'Telefon – akutt (man–fre)',
       hours: '08:30–09:30',
       status: 'verified',
@@ -227,6 +233,7 @@ export const clinic: ClinicConfig = {
   ],
   officeSchedule: {
     timeZone: 'Europe/Oslo',
+    lunchBreak: { from: '11:30', to: '12:30' },
     weekly: {
       1: { opens: '08:30', closes: '15:00' },
       2: { opens: '08:30', closes: '15:00' },
